@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  font-family: "Playwrite NG Modern", Courier, monospace;
+}
+
+.body-container {
+  width: 600px;
+}
+
+header {
+  background-image: url("./images/burger.jpeg");
+  background-position: 200px -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 163px;
+  background-color: #0c0c0c;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header h1 {
+  font-size: 2rem;
+}
+header p {
+  font-size: 0.8rem;
+  letter-spacing: 0.0625rem;
+}
+header h1,
+header p {
+  margin-left: 10%;
+}
+
+#menuList,
+.menuItem,
+.textBox {
+  display: flex;
+}
+
+#menuList,
+.textBox {
+  flex-direction: column;
+}
+
+#menuList {
+  background-color: pink;
+}
+
+.emoji {
+  font-size: 4.375rem;
+  height: 100%;
+}
+
+.emoji span {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.textBox {
+  width: 320px;
+}
+
+.menuItem {
+  height: 200px;
+  border-bottom: 2px solid lightgray;
+  align-items: center;
+}
