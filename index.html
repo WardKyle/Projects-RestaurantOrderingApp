@@ -18,6 +18,19 @@
         <p>The best burgers and pizzas in town</p>
     </header>
     <section id="menuList"></section>
+    <section id="checkout">
+        <div id="checkout-title">Your roder</div>
+        <div id="orderList"></div>
+        <div class="btn" id="checkout-btn">Complete order</div>
+    </section>
+    <div id="purchaseCompleted"></div>
+    <form id="paymentModal">    
+        <h2>Enter card details</h2>
+        <input id="inputName" input="text" placeholder="Enter your name" required>
+        <input id="inputCardNumber" input="text" placeholder="Enter card number" required>
+        <input id="inputCVV" input="text" placeholder="Enter CVV" required>
+        <button type="submit" class="btn" id="paymentModal-btn">Pay</button>
+    </form>
 </body>
 <script src="index.js" type="module"></script>
 
