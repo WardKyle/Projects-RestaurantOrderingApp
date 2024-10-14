@@ -88,7 +88,7 @@ document.addEventListener("submit",(e)=>{
     paymentModal.style.left = "-600px";
     checkout.style.display = "none";
     purchaseCompleted.style.display = "block";
-    purchaseCompleted.innerText = `Thanks, ${inputName}! Your ordre is on its way!`;
+    purchaseCompleted.innerText = `Thanks, ${inputName}! Your order is on its way!`;
   }
 })
 
